@@ -1,14 +1,11 @@
-# safe-web-Id-Manager-js
+# safe-web-Id-Manager-js for Solid
 
 ## Overview
+This is a fork of SAFE WebID Manager, a proof of concept web application which can create and edit WebIDs for use on SAFE Network. It uses the SAFE RDF APIs (currently experimental).
 
+When creating a WebID using RDF APIs, this version also creates a conventional SAFE public name with web / SAFE NFS storage container and publicises this as `storage` in whe WebID profile. Thus a Solid app can discover this storage by examining the WebID profile when the user selects the WebID in the SAFE Browser UI.
 
-|Linux/macOS|Windows|Issues|
-|:--------:|:-----:|:----:|
-|[![Build Status](https://travis-ci.com/maidsafe/safe-web-id-manager-js.svg?branch=master)](https://travis-ci.com/maidsafe/safe-web-id-manager-js)|[![Build status](https://ci.appveyor.com/api/projects/status/vyq74b658589wsva/branch/master?svg=true)](https://ci.appveyor.com/project/MaidSafe-QA/safe-web-id-manager-js/branch/master)|[![Stories in Ready](https://badge.waffle.io/maidsafe/safe-web-id-manager-js.png?label=ready&title=Ready)](https://waffle.io/maidsafe/safe-web-id-manager-js)|
-
-| [MaidSafe website](https://maidsafe.net) | [SAFE Dev Forum](https://forum.safedev.org) | [SAFE Network Forum](https://safenetforum.org) |
-|:-------:|:-------:|:-------:|
+This is suitable for Solid apps that are enabled to run on SAFE Network by using this [solid-auth-client](https://github.com/theWebalyst/solid-auth-client) (on branch `add-safe-compatibility`).
 
 ## License
 

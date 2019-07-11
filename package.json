@@ -1,11 +1,11 @@
 {
   "name": "webIdManager",
   "version": "1.0.0",
-  "productName": "webIdManager",
-  "identifier": "net.maidsafe.web-id-manager",
-  "vendor": "MaidSafe.net Ltd",
+  "productName": "Solid webIdManager",
+  "identifier": "solid.on.safe.web-id-manager",
+  "vendor": "MaidSafe + theWebalyst",
   "author": {
-    "name": "Maidsafe.net Ltd",
+    "name": "Maidsafe + happybeing",
     "email": "qa@maidsafe.net",
     "url": "https://github.com/maidsafe"
   },
